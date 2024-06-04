@@ -1,0 +1,93 @@
+*
+{
+    font-family: "Figtree", sans-serif;
+}
+body
+{
+    background-color: hsl(47, 88%, 63%);
+}
+.card
+{
+    padding: 1.2rem;
+    border: 1px solid black;
+    background-color: white;
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 4px 4px 0px black;
+    transition: all 0.1s 0s linear;
+}
+.card:hover
+{
+    box-shadow: 8px 8px 0px black;
+}
+.card img
+{
+    width: 100%;
+    border-radius: 10px;
+}
+.card-content
+{
+    margin-left: 5px;
+}
+.tag
+{
+    width: 22%;
+    text-align: center;
+    /* line-height: 25px;
+    padding: 0.1px; */
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 3px;
+    margin: 0.25rem 0rem;
+    font-weight: 800;
+}
+.tag p
+{
+    padding: 5px;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+.pub
+{
+    font-weight: 500;
+}
+.card-content h2
+{
+    font-weight: 800;
+}
+.card-content .para
+{
+    color: hsl(0, 0%, 50%);
+    font-weight: 500;
+}
+.attribution
+{
+    margin: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 40%;
+}
+.name-tag
+{
+    display: flex;
+    justify-content: start;
+}
+.name-tag img
+{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 5px;
+}
+.name-tag p
+{
+    margin-left: 10px;
+    font-weight: 800;
+}
+
+.name-tag:hover, .card-content h2
+{
+    cursor: pointer;
+}
